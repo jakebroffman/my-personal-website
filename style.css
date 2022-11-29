@@ -1,5 +1,5 @@
 body {
-    background: #57605c;
+    background: black;
 }
 
 h1 {
@@ -11,6 +11,16 @@ h1 {
     font-family:'Anton', sans-serif; 
 }
 
+.dustyBitsBio {
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.dominoBio {
+    color: #f2f2f2;
+    text-align: center;
+}
+
 .bg-img {
     background-image: url(../my-personal-website/images/navBar.jpg);
     min-height: 350px;
@@ -18,6 +28,22 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+#musicBio {
+    width: 80%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+}
+
+#dominoBio {
+    width: 80%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
 }
 
 .container {
@@ -44,4 +70,10 @@ h1 {
   .topNav a:hover {
     background-color: #ddd;
     color: black;
+  }
+
+  .container a {
+    color: #f2f2f2;
+    font-size: 28px;
+    font-family:'Anton', sans-serif;
   }
